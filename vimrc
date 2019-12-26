@@ -14,3 +14,6 @@ set hlsearch
 
 set guifont=Cousine\ for\ Powerline\ 10
 
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#whitespace#checks = [ 'indent', 'long', 'mixed-indent-file' ]
+

@@ -1,3 +1,9 @@
 [submodule "pack/bundle/start/solarized"]
 	path = pack/bundle/start/solarized
 	url = https://www.github.com/altercation/vim-colors-solarized
+[submodule "pack/bundle/start/airline"]
+	path = pack/bundle/start/airline
+	url = https://www.github.com/vim-airline/vim-airline
+[submodule "pack/bundle/start/airline-themes"]
+	path = pack/bundle/start/airline-themes
+	url = https://www.github.com/vim-airline/vim-airline-themes
