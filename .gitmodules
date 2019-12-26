@@ -7,3 +7,9 @@
 [submodule "pack/bundle/start/airline-themes"]
 	path = pack/bundle/start/airline-themes
 	url = https://www.github.com/vim-airline/vim-airline-themes
+[submodule "pack/bundle/start/sensible"]
+	path = pack/bundle/start/sensible
+	url = https://www.github.com/tpope/vim-sensible
+[submodule "pack/bundle/start/commentary"]
+	path = pack/bundle/start/commentary
+	url = https://www.github.com/tpope/vim-commentary
