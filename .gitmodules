@@ -13,3 +13,6 @@
 [submodule "pack/bundle/start/commentary"]
 	path = pack/bundle/start/commentary
 	url = https://www.github.com/tpope/vim-commentary
+[submodule "pack/bundle/start/fzf"]
+	path = pack/bundle/start/fzf
+	url = https://www.github.com/junegunn/fzf
