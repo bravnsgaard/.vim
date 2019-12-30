@@ -16,3 +16,6 @@
 [submodule "pack/bundle/start/fzf"]
 	path = pack/bundle/start/fzf
 	url = https://www.github.com/junegunn/fzf
+[submodule "pack/bundle/start/projectionist"]
+	path = pack/bundle/start/projectionist
+	url = https://github.com/tpope/vim-projectionist
