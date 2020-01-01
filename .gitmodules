@@ -19,3 +19,6 @@
 [submodule "pack/bundle/start/projectionist"]
 	path = pack/bundle/start/projectionist
 	url = https://github.com/tpope/vim-projectionist
+[submodule "pack/bundle/start/mesonic"]
+	path = pack/bundle/start/mesonic
+	url = https://github.com/igankevich/mesonic
