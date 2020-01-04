@@ -22,3 +22,6 @@
 [submodule "pack/bundle/start/mesonic"]
 	path = pack/bundle/start/mesonic
 	url = https://github.com/igankevich/mesonic
+[submodule "pack/bundle/start/clang-format"]
+	path = pack/bundle/start/clang-format
+	url = https://github.com/rhysd/vim-clang-format

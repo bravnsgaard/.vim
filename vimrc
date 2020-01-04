@@ -23,3 +23,7 @@ let g:airline#extensions#whitespace#checks =
 map Q gq
 inoremap <C-U> <C-G>u<C-U>
 
+" map :ClangFormat to <C-Q>
+map <C-Q> :ClangFormat<CR>
+imap <C-Q> <c-o>:ClangFormat<CR>
+
