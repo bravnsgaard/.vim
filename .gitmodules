@@ -25,3 +25,6 @@
 [submodule "pack/bundle/start/clang-format"]
 	path = pack/bundle/start/clang-format
 	url = https://github.com/rhysd/vim-clang-format
+[submodule "pack/bundle/start/json"]
+	path = pack/bundle/start/json
+	url = https://github.com/elzr/vim-json
