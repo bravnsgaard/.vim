@@ -27,3 +27,6 @@ inoremap <C-U> <C-G>u<C-U>
 map <C-Q> :ClangFormat<CR>
 imap <C-Q> <c-o>:ClangFormat<CR>
 
+" map <C-P> to call :FZF in normal mode
+nnoremap <C-P> :<C-U>FZF<CR>
+
