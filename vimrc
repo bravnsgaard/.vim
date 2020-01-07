@@ -30,3 +30,6 @@ imap <C-Q> <c-o>:ClangFormat<CR>
 " map <C-P> to call :FZF in normal mode
 nnoremap <C-P> :<C-U>FZF<CR>
 
+" Configure vim-rooter default directory
+let g:rooter_change_directory_for_non_project_files = 'current'
+

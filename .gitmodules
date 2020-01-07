@@ -28,3 +28,6 @@
 [submodule "pack/bundle/start/json"]
 	path = pack/bundle/start/json
 	url = https://github.com/elzr/vim-json
+[submodule "pack/bundle/start/rooter"]
+	path = pack/bundle/start/rooter
+	url = https://github.com/airblade/vim-rooter
