@@ -31,3 +31,6 @@
 [submodule "pack/bundle/start/rooter"]
 	path = pack/bundle/start/rooter
 	url = https://github.com/airblade/vim-rooter
+[submodule "pack/bundle/start/unimpaired"]
+	path = pack/bundle/start/unimpaired
+	url = https://github.com/tpope/vim-unimpaired

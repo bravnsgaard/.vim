@@ -33,3 +33,11 @@ nnoremap <C-P> :<C-U>FZF<CR>
 " Configure vim-rooter default directory
 let g:rooter_change_directory_for_non_project_files = 'current'
 
+" Use æ and ø for [ and ]
+nmap æ [
+nmap ø ]
+omap æ [
+omap ø ]
+xmap æ [
+xmap ø ]
+
