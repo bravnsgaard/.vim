@@ -41,3 +41,6 @@
 [submodule "pack/bundle/start/surround"]
 	path = pack/bundle/start/surround
 	url = https://github.com/tpope/vim-surround
+[submodule "pack/bundle/start/lastplace"]
+	path = pack/bundle/start/lastplace
+	url = https://github.com/farmergreg/vim-lastplace
