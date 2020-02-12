@@ -44,3 +44,6 @@
 [submodule "pack/bundle/start/lastplace"]
 	path = pack/bundle/start/lastplace
 	url = https://github.com/farmergreg/vim-lastplace
+[submodule "pack/bundle/start/fugitive"]
+	path = pack/bundle/start/fugitive
+	url = https://github.com/tpope/vim-fugitive
