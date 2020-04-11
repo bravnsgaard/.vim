@@ -47,3 +47,6 @@
 [submodule "pack/bundle/start/fugitive"]
 	path = pack/bundle/start/fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/bundle/start/ale"]
+	path = pack/bundle/start/ale
+	url = git@github.com:dense-analysis/ale
