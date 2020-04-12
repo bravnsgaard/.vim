@@ -34,6 +34,12 @@ nnoremap <C-P> :<C-U>FZF<CR>
 let g:rooter_change_directory_for_non_project_files = 'current'
 let g:rooter_silent_chdir = 1
 
+" configure unimpaired-like mappings for ALE
+nmap <silent> [W <Plug>(ale_first)
+nmap <silent> [w <Plug>(ale_previous)
+nmap <silent> ]w <Plug>(ale_next)
+nmap <silent> ]W <Plug>(ale_last)
+
 " Use æ and ø for [ and ]
 nmap æ [
 nmap ø ]
