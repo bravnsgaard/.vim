@@ -50,3 +50,6 @@
 [submodule "pack/bundle/start/ale"]
 	path = pack/bundle/start/ale
 	url = git@github.com:dense-analysis/ale
+[submodule "pack/bundle/start/coc.nvim"]
+	path = pack/bundle/start/coc.nvim
+	url = git@github.com:neoclide/coc.nvim
