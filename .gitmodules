@@ -53,3 +53,6 @@
 [submodule "pack/bundle/start/coc.nvim"]
 	path = pack/bundle/start/coc.nvim
 	url = git@github.com:neoclide/coc.nvim
+[submodule "pack/bundle/start/vim-cpp-modern"]
+	path = pack/bundle/start/vim-cpp-modern
+	url = git@github.com:bfrg/vim-cpp-modern
