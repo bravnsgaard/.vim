@@ -6,7 +6,7 @@ if has('gui_running')
 	set mousehide
 endif
 
-set background=light
+set background=dark
 colorscheme solarized
 
 set cmdheight=2
@@ -23,6 +23,7 @@ let g:airline#extensions#whitespace#checks =
 map Q gq
 inoremap <C-U> <C-G>u<C-U>
 
+let g:clang_format#command = '/home/brian/.local/bin/clang-format'
 " map :ClangFormat to <C-Q>
 map <C-Q> :ClangFormat<CR>
 imap <C-Q> <c-o>:ClangFormat<CR>
