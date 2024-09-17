@@ -12,7 +12,7 @@ colorscheme solarized
 set cmdheight=2
 set hlsearch
 
-set guifont=Cousine\ for\ Powerline\ 10
+set guifont=Comic\ Code\ Regular\ 11
 
 " Airline setup
 let g:airline_powerline_fonts = 1
