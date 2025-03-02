@@ -53,3 +53,6 @@
 [submodule "pack/bundle/start/vim-cpp-modern"]
 	path = pack/bundle/start/vim-cpp-modern
 	url = git@github.com:bfrg/vim-cpp-modern
+[submodule "pack/bundle/start/gruvbox"]
+	path = pack/bundle/start/gruvbox
+	url = git@github.com:morhetz/gruvbox

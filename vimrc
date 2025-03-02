@@ -7,7 +7,7 @@ if has('gui_running')
 endif
 
 set background=dark
-colorscheme solarized
+autocmd vimenter * ++nested colorscheme gruvbox
 
 set cmdheight=2
 set hlsearch
