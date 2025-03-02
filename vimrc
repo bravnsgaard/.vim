@@ -46,10 +46,10 @@ set updatetime=300
 set shortmess+=c
 
 inoremap <silent><expr> <TAB>
-			\ pumvisible() ? "\<C-n>" :
+			\ coc#pum#visible() ? "\<C-n>" :
 			\ <SID>check_back_space() ? "\<TAB>" :
 			\ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+inoremap <expr><S-TAB> coc#pum#visible() ? "\<C-p>" : "\<C-h>"
 
 function! s:check_back_space() abort
 	let col = col('.') - 1
@@ -58,7 +58,7 @@ endfunction
 
 inoremap <silent><expr> <C-space> coc#refresh()
 
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+inoremap <expr> <CR> coc#pum#visible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
