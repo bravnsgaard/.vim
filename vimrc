@@ -23,7 +23,7 @@ let g:airline#extensions#whitespace#checks =
 map Q gq
 inoremap <C-U> <C-G>u<C-U>
 
-let g:clang_format#command = '/home/brian/.local/bin/clang-format'
+let g:clang_format#command = 'clang-format-19'
 " map :ClangFormat to <C-Q>
 map <C-Q> :ClangFormat<CR>
 imap <C-Q> <c-o>:ClangFormat<CR>
@@ -46,19 +46,20 @@ set updatetime=300
 set shortmess+=c
 
 inoremap <silent><expr> <TAB>
-			\ coc#pum#visible() ? "\<C-n>" :
-			\ <SID>check_back_space() ? "\<TAB>" :
+			\ coc#pum#visible() ? coc#pum#next(1) :
+			\ CheckBackspace() ? "\<TAB>" :
 			\ coc#refresh()
-inoremap <expr><S-TAB> coc#pum#visible() ? "\<C-p>" : "\<C-h>"
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 
-function! s:check_back_space() abort
+function! CheckBackspace() abort
 	let col = col('.') - 1
 	return !col || getline('.')[col - 1] =~# '\s'
 endfunction
 
 inoremap <silent><expr> <C-space> coc#refresh()
 
-inoremap <expr> <CR> coc#pum#visible() ? "\<C-y>" : "\<C-g>u\<CR>"
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+			\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
