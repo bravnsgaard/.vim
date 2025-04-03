@@ -58,8 +58,8 @@ endfunction
 
 inoremap <silent><expr> <C-space> coc#refresh()
 
-inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
-			\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+" inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+" 			\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
